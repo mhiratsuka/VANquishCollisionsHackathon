@@ -1,0 +1,21 @@
+    html, body {
+        height: 100%;
+    }
+
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #pow.hidepow{
+        display: none;
+    }
+
+    #pow.showpow{
+        display: block;
+        position: absolute;
+        margin: 0 auto;
+        z-index: 100;
+    }
